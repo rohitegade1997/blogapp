@@ -14,7 +14,7 @@ class Home extends CI_Controller
         try {
             $this->load->model('category_model');
             $categories = $this->category_model->get_categories();
-            $data = array('url' => 'home', 'categories' => $categories, 'posts' => null);
+            $data = array('url' => 'home', 'categories' => $categories, 'posts' => null, 'post' => null);
             //print_r($categories);
             $this->load->view('common/wrapper', $data);
         } catch (Exception $obj) {

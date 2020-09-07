@@ -12,7 +12,7 @@ $this->load->view("common/head.php"); ?>
       if ($posts !== null) {
         $this->load->view($url, $posts);
       } else {
-        if ($post) {
+        if ($post !== null) {
           $this->load->view($url, $post);
         } else {
           $this->load->view($url);

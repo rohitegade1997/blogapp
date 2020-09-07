@@ -34,4 +34,46 @@ class Post_model extends CI_Model
             return $obj;
         }
     }
+    public function get_all_posts()
+    {
+        try {
+            $this->db->select('id, title,short_description,long_description,image_name');
+            $this->db->from('posts');
+            $query = $this->db->get();
+            return $query->result();
+        } catch (Exception $obj) {
+            return $obj;
+        }
+    }
+
+    public function add_post($category, $title, $short_description, $long_description, $image_name)
+    {
+        try {
+            $system_date = date('d-m-y h:i:s');
+            $post_arr = array(
+                "category_id" => $category,
+                "title" => $title,
+                "short_description" => $short_description,
+                "long_description" => $long_description,
+                "image_name" => $image_name,
+                "created_on" => $system_date,
+                "updated_on" => $system_date
+            );
+            $this->db->insert('posts', $post_arr);
+            return array("status" => TRUE, "message" => "Your post has been published", "data" => "");
+        } catch (Exception $obj) {
+            return array("status" => FALSE, "message" => "Something went wrong", "data" => "");
+        }
+    }
+
+    public function delete_post($data)
+    {
+        try {
+            $this->db->where('id', $data['postId']);
+            $this->db->delete('posts');
+            return array("status" => TRUE, "message" => "Post deleted", "data" => "");
+        } catch (Exception $obj) {
+            return array("status" => FALSE, "message" => "Something went wrong", "data" => "");
+        }
+    }
 }
