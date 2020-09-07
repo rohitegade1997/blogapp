@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+  <defs>
+    <filter id="Ellipse_177" x="0" y="0" width="93" height="93" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2072" data-name="Group 2072" transform="translate(-1089.5 -301.5)">
+    <g transform="matrix(1, 0, 0, 1, 1089.5, 301.5)" filter="url(#Ellipse_177)">
+      <circle id="Ellipse_177-2" data-name="Ellipse 177" cx="42" cy="42" r="42" transform="translate(4.5 2.5)" fill="#fff"/>
+    </g>
+    <g id="user_4_" data-name="user (4)" transform="translate(1108.899 318)">
+      <path id="Path_686" data-name="Path 686" d="M76.4,25.387A12.694,12.694,0,1,0,63.7,12.694,12.694,12.694,0,0,0,76.4,25.387ZM76.4,2.4A10.292,10.292,0,1,1,66.1,12.694,10.292,10.292,0,0,1,76.4,2.4Zm0,0" transform="translate(-55.964)" fill="#c09749"/>
+      <path id="Path_687" data-name="Path 687" d="M2.539,255.061a18.84,18.84,0,0,1,5.212-12.238,17.512,17.512,0,0,1,12.67-5.308h.036a17.641,17.641,0,0,1,11.049,3.807c.18.144.36.3.54.445l1.561-1.814c-.2-.18-.408-.348-.613-.517A19.971,19.971,0,0,0,20.421,235.1a19.93,19.93,0,0,0-14.387,6.04A21.383,21.383,0,0,0,.1,256.274a1.2,1.2,0,0,0,1.2,1.2l33.746-.06v-2.4Zm0,0" transform="translate(0 -206.868)" fill="#c09749"/>
+      <path id="Path_688" data-name="Path 688" d="M317.9,313.229l-5.428,4.419-1.958-2.294a1.2,1.2,0,0,0-1.825,1.561l2.726,3.182a1.209,1.209,0,0,0,.913.42,1.186,1.186,0,0,0,.757-.264l6.341-5.152a1.208,1.208,0,0,0-1.526-1.874Zm0,0" transform="translate(-271.275 -275.375)" fill="#c09749"/>
+      <path id="Path_689" data-name="Path 689" d="M281.584,229.067l-10.352-5.512a1.169,1.169,0,0,0-1.141.012l-10.064,5.513a1.206,1.206,0,0,0-.624,1.056v7.206a15.6,15.6,0,0,0,9.355,14.279l1.393.612a1.108,1.108,0,0,0,.48.1,1.361,1.361,0,0,0,.48-.1l1.573-.684A15.551,15.551,0,0,0,282.22,237.2v-7.062a1.213,1.213,0,0,0-.637-1.069Zm-1.765,8.13a13.152,13.152,0,0,1-8.082,12.142h-.012l-1.093.468-.913-.4A13.2,13.2,0,0,1,261.8,237.33v-6.5l8.875-4.864,9.139,4.876Zm0,0" transform="translate(-228.161 -196.582)" fill="#c09749"/>
+    </g>
+  </g>
+</svg>
